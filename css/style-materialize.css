@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav ul a {
+    font-size: 13px !important;
+    margin: 15px;
+}
+
+footer {
+    font-size: 13px;
+}
+
+
+@media (min-width: 992px) {
+    nav {
+        height: 118px !important;
+    }
+    
+    .kategori {
+        margin-top: 10px;
+    }
+}
